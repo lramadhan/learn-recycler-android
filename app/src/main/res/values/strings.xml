@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyDataPengajar</string>
+    <string name="nama_pengajar">Nama Pengajar</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="card_view">Card View</string>
+    <string name="about_view">About</string>
+    <string name="detail_pengajar">Detail Pengajar</string>
+    <string name="hubungi">Hubungi</string>
+</resources>

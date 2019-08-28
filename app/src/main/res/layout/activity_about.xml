@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:src="@drawable/photo_1" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:textSize="12sp"
+        android:layout_marginLeft="@dimen/activity_horziontal_margin"
+        android:layout_marginRight="@dimen/activity_horziontal_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lutfi Hanafiah Ramadhan"
+        android:layout_marginLeft="@dimen/activity_horziontal_margin"
+        android:layout_marginRight="@dimen/activity_horziontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat Email"
+        android:textSize="12sp"
+        android:layout_marginLeft="@dimen/activity_horziontal_margin"
+        android:layout_marginRight="@dimen/activity_horziontal_margin"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hanafiah.ramadhan@gmail.com"
+        android:layout_marginLeft="@dimen/activity_horziontal_margin"
+        android:layout_marginRight="@dimen/activity_horziontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:lineSpacingMultiplier="1"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn_dial_number"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="Keep in Touch"
+        />
+</LinearLayout>
